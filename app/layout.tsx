@@ -1,11 +1,10 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { GeistSans, GeistMono } from "geist/font/geist"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+// Geist fonts are now imported directly from the geist package
 
 export const metadata: Metadata = {
   title: "InfoHub - Your All-in-One Utility Companion",
@@ -20,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`${GeistSans.className} antialiased`}>
         {children}
         <Analytics />
       </body>
