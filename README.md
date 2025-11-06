@@ -97,13 +97,3 @@ EXCHANGE_RATE_API_KEY=your_exchange_rate_api_key
 2. Connect your repository to Vercel
 3. Add your environment variables in the Vercel project settings
 4. Deploy!
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- [OpenWeather](https://openweathermap.org/) for weather data
-- [ExchangeRate-API](https://www.exchangerate-api.com/) for currency conversion rates
-- [Quotable](https://github.com/lukePeavey/quotable) for inspirational quotes
